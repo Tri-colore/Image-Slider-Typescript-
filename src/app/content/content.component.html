@@ -1,0 +1,18 @@
+
+
+  <!--<p *ngFor = "let city of myCityArr"> --{{city.city_Name}} {{city.country_Name}} {{city.image}}</p>-->
+  <!--<img [src] = "myCityArr[0].image">-->
+
+  <p>{{myCityArr[index].city_Name}} </p>
+  <p>{{myCityArr[index].country_Name}}</p>
+<div class = "imgCont">
+        <img [src] = "myCityArr[index].image">
+</div>
+
+<div>
+  <button (click)= "next()"> Next</button>
+  <button (click)= "previous">Previous</button>
+  <!--<button (click)= "prev()"> Previous</button>-->
+</div>
+
+

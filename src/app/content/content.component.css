@@ -1,0 +1,9 @@
+.imgCont{
+    border-radius: 8px;
+    width : 50%;
+    height: 40%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity .3s;
+  cursor: pointer;
+}
